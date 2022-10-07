@@ -24,7 +24,6 @@ Minimalistic presentation generator.
 	move	slide(s) -- pos1: idx, pos2: idx, count
 	get count -- container size
 	current slide -- 
-		
 	traverse -- slideshow(from first or curr slide till end or exit)
 		for console outputs the slides one by one by writing content of each + parameteres(scale, colores)
 		
