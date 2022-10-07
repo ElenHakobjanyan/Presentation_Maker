@@ -28,7 +28,8 @@ Minimalistic presentation generator.
 		for console outputs the slides one by one by writing content of each + parameteres(scale, colores)
 		
 		
-## slide -- container of objects, whichever is with smaller idx would be in front of rhs, like layers
+## slide 
+	-- container of objects, whichever is with smaller idx would be in front of those, which are after it, like layers
 	set background color
 	maybe have template slides
 	
