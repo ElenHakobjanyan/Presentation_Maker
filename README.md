@@ -4,7 +4,7 @@ Minimalistic presentation generator.
 
 # Notes
 
-**console**
+## console
 	new	presentation -- name: string, path: string
 	edit	presentation -- name: string or path: string
 	delete	presentation -- name: string or path: string
@@ -12,11 +12,11 @@ Minimalistic presentation generator.
 	up and down arrows allows to scroll through console history
 	if command is wrong, then inform user, else execute
  
-**commands execution**
+## commands execution
 	table of commands -- name, number of inputs, execute in cases
 	new and edit transfers us to a new working area
 		
-**slides container**
+## slides container
 	prepresentation of a single presentation:)
 	ba able to choose a scale, a default theme(bg clr, txt clt ...etc.)
 	add	slide	 -- slide, position: idx(after curr by default?)
@@ -28,7 +28,7 @@ Minimalistic presentation generator.
 		for console outputs the slides one by one by writing content of each + parameteres(scale, colores)
 		
 		
-**slide** -- container of objects, whichever is with smaller idx would be in front of rhs, like layers
+## slide -- container of objects, whichever is with smaller idx would be in front of rhs, like layers
 	set background color
 	maybe have template slides
 	
@@ -39,7 +39,7 @@ Minimalistic presentation generator.
 		
 		
 		
-**objects types**
+## objects types
 	textbox
 	shape
 		line
@@ -53,7 +53,8 @@ Minimalistic presentation generator.
 		music
 	chart
 	freehand -- drawing, save as photo with transparent background maybe?
-**object properties**
+	
+## object properties
 	position -- x, y coordinates, height, width
 	background -- color, fill, no fill
 	border -- color, size
