@@ -5,7 +5,7 @@ Minimalistic presentation generator.
 # Notes
 
  ## console
-		new		presentation -- name: string, path: string
+		new	presentation -- name: string, path: string
 		edit	presentation -- name: string or path: string
 		delete	presentation -- name: string or path: string
 		convert presentation -- name: string or path: string, format ??
@@ -19,7 +19,7 @@ Minimalistic presentation generator.
  ## slides container
 		prepresentation of a single presentation:)
 		ba able to choose a scale, a default theme(bg clr, txt clt ...etc.)
-		add		slide	 -- slide, position: idx(after curr by default?)
+		add	slide	 -- slide, position: idx(after curr by default?)
 		remove	slide(s) -- position: idx, count
 		move	slide(s) -- pos1: idx, pos2: idx, count
 		get count -- container size
