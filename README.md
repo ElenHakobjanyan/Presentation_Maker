@@ -29,7 +29,8 @@ Minimalistic presentation generator.
 		
 		
 ## slide 
-	container of objects, whichever is with smaller idx would be in front of those, which are after it, like layers
+	container of objects, 
+	whichever is with smaller idx would be in front of those, which are after it, like layers
 	set background color
 	maybe have template slides
 	
@@ -65,7 +66,7 @@ Minimalistic presentation generator.
 
 
 
- # think later:
+ ## think later:
  
  undo, redo
  in what format to keep presentations
