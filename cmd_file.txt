@@ -1,0 +1,13 @@
+new p_1
+edit p_1
+add slide
+add slide(0,5)
+edit slide(0)
+add rect(0,0,10,10)
+edit slide(5)
+add text(5,5,"heelo world")
+del slide(1,4)
+save slide
+save p_1
+exit p_1
+print p_1
